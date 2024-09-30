@@ -137,7 +137,7 @@ export default function MemeGenerator() {
                       onStop={(_, data) => updateTextPosition(index, { x: data.x, y: data.y })}
                     >
                       <div
-                        className="absolute text-black text-xl font-bold"
+                        className="absolute text-black text-xl font-bold flex flex-col"
                         style={{ left: textElement.position.x, top: textElement.position.y }}
                       >
                         {textElement.text}
